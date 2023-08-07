@@ -1,3 +1,4 @@
+# 作者: wangshijiang   GitHub: https://github.com/iwqculrbud/wangshijiang-python.git
 while True:
     def id_jisuan(id):
         s = []
@@ -21,7 +22,8 @@ while True:
 
     command = input("请输入指令,使用help查看帮助: ")
     message1 = 'command\n\n\thelp\t\t查看帮助\n\ts\t\t\t计算身份证校验码\n\tc\t\t\t检查身份证是否合法\n'
-    message2 = '\tquit\t\t退出'
+    message2 = '\tquit\t\t退出\n作者: wangshijiang\t\t\tGitHub: https://github.com/iwqculrbud/wangshijiang-python.git'
+
 
     if command.lower() == 'help':
         print(message1 + message2)
@@ -48,6 +50,15 @@ while True:
 
     if command.lower() == 'quit':
         break
+
+
+
+
+
+
+
+
+
 
 
 
